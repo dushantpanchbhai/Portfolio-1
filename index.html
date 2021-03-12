@@ -446,7 +446,7 @@
                                   placeholder="Phone">
                                 <textarea class="contact-form-text"
                                   placeholder="Message"></textarea>
-                                <input type="submit" class="contact-form-btn"
+                                <input type="button" class="contact-form-btn"
                                   value="Send Message"
                                   onclick="sub();redirectto();">
                               </form>
@@ -499,7 +499,8 @@
       alert("Contact submitted sucessfully! Will reach you soon. :)");
     }
     function redirectto(){
-      var a = window.location.hostname;
+      var a = window.location.href;
+      console.log(a)
       window.location = a;
     }
   </script>
