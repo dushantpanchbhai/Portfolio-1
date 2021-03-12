@@ -2,13 +2,14 @@
 margin: 0;
 padding: 0;
 }
+
 #header{
 position: absolute;
 z-index: 10;
 width: 100%;
 }
 .navbar{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
 padding: 50px 0;
 }
 .navbar-brand{
@@ -19,24 +20,11 @@ font-size: 1.8em;
 color: #262626;
 }
 .nav-item{
-font-weight: 700;
+font-weight: 300;
 font-size: 1.5em;
 text-transform: uppercase;
 padding-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .navbar-dark .navbar-nav .nav-item .nav-link:hover{
@@ -88,7 +76,7 @@ background-position: center;
 .prof ul li{
     display: inline-block;
     padding: 10px;
-color : aliceblue;
+    color : aliceblue;
 }
 
 .social {
@@ -214,6 +202,11 @@ color : aliceblue;
     text-align: center !important;
     color: #2a2a2a; 
     margin: 10px;   
+}
+
+.third-info-artistly a{
+    text-decoration: none !important;
+    color: #2a2a2a  !important;
 }
 
 .third-info-artistly img{
@@ -348,6 +341,7 @@ html{
   background-size: cover;
   padding: 40px 0;
 margin-top :-48px;
+margin-bottom: 20px;
 }
 .contact-section h1{
   text-align: center;
@@ -401,6 +395,37 @@ color : black;
   background: #ddd;
 }
 
+.follow{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 150px;
+    text-align: center;
+}
+.social-handles ul{
+    padding: 0px;
+    padding-top: 20px;
+}
+
+.social-handles li{
+    display: inline;
+    padding: 10px;
+}
+.social-handles img:hover{
+    transform: scale(1.2);
+    -webkit-transition: transform 0.3s ease;
+}
+
+.social-handles a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-handles img{
+    width: 30px;
+}
+
+footer{
+    margin-top: 50px;
+}
 
 
 
