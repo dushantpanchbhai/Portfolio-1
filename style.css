@@ -273,7 +273,6 @@ background-position: center;
 }
 
 .my-5{
-    margin-bottom: 0 !important ;
     color : white;
     font-family: 'Open Sans', sans-serif;
     position : relative;
@@ -284,6 +283,9 @@ background-position: center;
     margin-bottom: 0 !important;
     }
     
+#my-5-margin{
+    margin-bottom: 0px !important;
+}
     .mb-5 svg{
         position: relative;
         top: -5px;
@@ -320,7 +322,7 @@ html{
 }
 
 .contact-section{
-  background: url(bg.png) no-repeat center;
+  background: url(bg.png) no-repeat center fixed;
   background-size: cover;
   padding: 40px 0;
 margin-top :-48px;
@@ -411,10 +413,10 @@ footer{
 }
 
 .about-page{
-    background: url('https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
+    background: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
     background-size: cover;
     margin: 0px;
-    color : white;
+    color : #363636;
     padding: 50px;
     padding-bottom: 100px; 
 }
@@ -430,8 +432,10 @@ footer{
 .edu-list{
     margin-top: 60px;
     font-size: 30px;
+    color: whitesmoke;
 }
 .intro{
+    color: whitesmoke;
     margin-top:60px;
     padding: 10px 50px 10px 50px;
 }
@@ -536,6 +540,17 @@ footer{
         transform: scale(1.05)
     }
 
+    .about-title-2 h3{
+        font-size: 30px;
+    }
+
+    .edu-list{
+        font-size: 20px;
+    }
+
+    .intro{
+        padding: 10px 20px 10px 20px;
+    }
 
 
 }
