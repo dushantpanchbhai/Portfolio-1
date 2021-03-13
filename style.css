@@ -272,13 +272,8 @@ background-position: center;
     opacity: 1;
 }
 
-
-
-
-
-
-
 .my-5{
+    margin-bottom: 0 !important ;
     color : white;
     font-family: 'Open Sans', sans-serif;
     position : relative;
@@ -286,6 +281,7 @@ background-position: center;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
+    margin-bottom: 0 !important;
     }
     
     .mb-5 svg{
@@ -322,19 +318,6 @@ background-position: center;
 html{
     scroll-behavior: smooth;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .contact-section{
   background: url(bg.png) no-repeat center;
@@ -427,6 +410,34 @@ footer{
     margin-top: 50px;
 }
 
+.about-page{
+    background: url('https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center;
+    background-size: cover;
+    margin: 0px;
+    color : white;
+    padding: 50px;
+    padding-bottom: 100px; 
+}
+
+.about-title-2{
+    margin-top: 30px;
+}
+
+.about-title-2 h3{
+    font-size: 40px;
+}
+
+.edu-list{
+    margin-top: 60px;
+    font-size: 30px;
+}
+.intro{
+    margin-top:60px;
+    padding: 10px 50px 10px 50px;
+}
+.intro p{
+    font-size:20px;
+}
 @media screen and (max-width: 768px){
     .main{
         min-height: 105vh;
